@@ -1,0 +1,31 @@
+<%!
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+%>
+<%inherit file="/main.html" />
+
+<%namespace name='static' file='/static_content.html'/>
+
+<%block name="title"><title>Frequently Asked Questions</title></%block>
+
+<section class="static-container tos" style="padding: 0 25px; box-sizing: border-box;">
+  <p>&nbsp;</p>
+  <h2><em>MORE TO COME!</em></h2>
+  
+  <hr />
+  
+  <h1 id="tos" style="text-align: left;">What to do.</h1>
+  
+  <p>Meanwhile contact your course professor.</p>
+
+  <ol>
+  <li>Current Professors:      <!-- Look, the closing </li> tag is not placed here! -->
+    <ul>
+      <li><a href="http://cs.senecac.on.ca/~jordan.anastasiade">Visit Jordan Anastasiade</a> OR <a href="mailto:Jordan.Anastasiade@senecacollege.ca">send an email</a></li>
+    </ul>
+  </li>                <!-- Here is the closing </li> tag -->
+  </ol>
+
+  <p><strong>Last updated: August 21, 2014</strong></p>
+  <p>&nbsp;</p>
+</section>

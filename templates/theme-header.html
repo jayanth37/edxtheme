@@ -1,0 +1,52 @@
+## mako
+<%!
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+%>
+<%namespace name='static' file='/static_content.html'/>
+<%inherit file="/navigation.html"/>
+
+<%block name="navigation_top">
+  <div id="sen-header">
+    <div class="sen-container">
+      
+      <a href="http://online.ict.senecacollege.ca/" target="_blank">
+        <img src="https://online-dev.cdot.senecacollege.ca/static/themes/seneca/images/sol1t.gif" alt="Seneca College of Applied Arts and Technology" width="105" height="23" style="background-image: url(https://online-dev.cdot.senecacollege.ca/static/themes/seneca/images/logo_small_white_s_out.png);">
+      </a>
+  <!--
+      <a href="http://online.ict.senecacollege.ca/" target="_blank">
+        <img src="${static.url('themes/seneca/images/glyphicons_020_home.png')}" alt="EDX @ Seneca College of Applied Arts and Technology">
+      </a>
+  -->
+  <a href="http://openedx.org" style="" target="_blank">
+        
+        <img src="https://files.edx.org/openedx-logos/edx-openedx-logo-tag-light.png" height="40" alt="Powered by Open edX" style="
+    padding-left: 78%;
+">
+      </a>
+
+    </div>
+  </div>
+</%block>
+
+## TODO: this will eventually be moved to the Sass
+<%block name="navigation_logo">
+<!---->
+</%block>
+
+## We don't want extra links inside the navigation dropdown
+<%block name="navigation_dropdown_menu_links" />
+
+## When unauthenticated, only show the about page link
+<%block name="navigation_global_links">
+<!---->
+</%block>
+
+## When authenticated, show both the about page and find courses
+<%block name="navigation_global_links_authenticated">
+<!---->
+  <li class="nav-global-02">
+    <a href="${marketing_link('COURSES')}">${_('Find Courses')}</a>
+  </li>
+</%block>
+

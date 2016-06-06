@@ -1,0 +1,79 @@
+.home>header .outer-wrapperSen {
+    margin:0 auto;
+    padding: 60px 10px 0px;
+    position:relative;
+    max-width:1600px;
+    min-width:760px;
+}
+
+.home>header .titleSen {
+    background:#FFF;
+    /* background:rgba(255,245,238,0.9); */
+    border:1px solid #eddde0;
+    box-shadow: 0 4px 25px 0 #B8B8B8;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    min-height:120px;
+    margin-left: /*400*/458px;
+    width:49.15254%;  /*makes full sentence*/
+    float:left;
+    position:relative;
+    -webkit-transition:all 0.2s linear 0s;
+    -moz-transition:all 0.2s linear 0s;
+    transition:all 0.2s linear 0s;
+    vertical-align:top
+}
+
+.home>header .titleSen>hgroup {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    display:inline-block;
+    left:0px;
+    opacity:1.0;
+    padding: 37px 86px;
+    top:0px;
+    -webkit-transition:all 0.2s linear 0s;
+    -moz-transition:all 0.2s linear 0s;
+    transition:all 0.2s linear 0s;
+    text-align: left;
+}
+
+.home>header .titleSen>hgroup h1 {
+    margin-bottom:0px;
+    text-align: left;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.6);
+    text-transform:none;
+    color:#CE3229;
+    font-size: 24px;
+}
+
+.home>header .mediaSen {
+    background:#FFF;
+    background:rgba(255, 245, 238, 0.9);
+    border:1px solid #eddde0;
+    border-left:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    height:120px;
+    float:left;
+    padding: 4px;
+    position:relative;
+    vertical-align:top;
+    /*width: 10%;*/
+    width: 119px;
+    z-index:2;
+    margin-right: 200px;
+    margin-top: -120px;
+    margin-left: /*282*/340px;
+}
+
+.home>header .mediaSen .heroSen {
+    height:100%;
+    overflow:hidden;
+    position:relative;
+    background: url("https://online-dev.cdot.senecacollege.ca/static/themes/seneca/images/SOL1.png");
+    background-size: contain;
+}

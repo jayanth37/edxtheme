@@ -1,0 +1,112 @@
+<%! from django.utils.translation import ugettext as _ %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>${_('Down for Maintenance')}</title>
+  
+    <link rel="stylesheet" href="../static/themes/seneca/css/vendor/sen-identity_maintenance.css')}" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if IE 8]>
+      <link rel="stylesheet" type="text/css" href="../static/themes/seneca/css/vendor/ie8.css" />
+    <![endif]-->
+    <!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" href="../static/themes/seneca/css/vendor/ie7.css" />
+    <![endif]-->
+    
+    <style>
+        body {
+     background: linear-gradient(135deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px),
+     linear-gradient(225deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px) 0 64px;
+     background: -webkit-linear-gradient(-45deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px),
+     -webkit-linear-gradient(-135deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px) 0 64px;
+     background: -moz-linear-gradient(-45deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px),
+     -moz-linear-gradient(-135deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px) 0 64px;
+     background: -o-linear-gradient(-45deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px),
+     -o-linear-gradient(-135deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px) 0 64px;
+     background: -ms-linear-gradient(-45deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px),
+     -ms-linear-gradient(-135deg, #9797A6 22px, #F0B6B3 22px, #F0B6B3 24px, transparent 24px, transparent 67px, #F0B6B3 67px, #F0B6B3 69px, transparent 69px) 0 64px;
+     background-color: #FFFFFF;
+     background-size: 64px 128px
+   }
+        
+        .maintenance-message {
+            position: relative;
+            display: block;
+            margin: 15% 0 50px 0;
+            font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+            text-align: center;
+            color: #3f3c30;
+        }
+        
+        h1 {
+            font-size: 3.5em;
+            font-weight: 700;
+            padding: 0 50px 50px 50px;
+        } 
+        
+        p {
+            font-size: 2em;
+            font-weight: 400;
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body class="maintenance-page">
+
+    <div id="sen-wrap"> <!-- #sen-wrap start -->
+        <div id="sen-content"> <!-- #sen-content start -->
+
+            <!-- Brandbar snippet start -->
+            <div id="brandbar">
+              <div class="container">
+                <a href="http://www.senecacollege.ca/">
+                  <img src="../static/images/logo_small_white.png" alt="Seneca College of Applied Arts and Technology" width="105" height="23">
+                </a>
+              </div> <!-- .container end -->
+            </div> <!-- #brandbar end -->
+            <!-- Brandbar snippet end -->
+            
+            <div class="maintenance-message">
+                <h1>${_('Down for Maintenance')}</h1>
+                
+                <p>${_('We are currently performing system maintenance, please try again in a little while.')}</p>
+                
+            </div>
+            
+        </div> <!-- #sen-content end -->
+    </div> <!-- #sen-wrap end -->
+
+    <!-- Global footer snippet start -->
+    <div id="global-footer">
+      <div class="container">
+        <div class="row">
+          <div id="bottom-logo" class="span2">
+            <a href="http://www.senecacollege.ca/" target="_blank">
+              <img src="../static/images/logo_small_white_college.png" alt="Seneca College of Applied Arts and Technology" width="105" height="60"/>
+            </a>
+          </div>
+          <!-- #bottom-logo end -->
+          <div id="bottom-text" class="span10">
+            <ul>
+              <li><a href="http://www.senecacollege.ca/" target="_blank">Seneca Home Page</a></li>
+              <li><a href="http://www.senecacollege.ca/campuses/" target="_blank">Maps &amp; Directions</a></li>
+              <li><a href="http://www.senecacollege.ca/search" target="_blank">Search Seneca</a></li>
+              <li><a href="http://www.senecacollege.ca/privacy/" target="_blank">Terms of Use</a></li>
+              <li><a href="http://www.senecac.on.ca/students/ombudsperson/" target="_blank">Copyright Complaints</a></li>
+            </ul>
+          </div> <!-- .bottom-text end -->
+          <div class="clear"></div>
+          <p class="copyright vcard">&copy; <span class="fn org">Seneca College of Applied Arts and Technology</span>, <span class="adr"> <span class="locality">Seneca</span>, <span class="region">Canada</span></span></p>
+        </div> <!-- .row end --> 
+      </div> <!-- .container end --> 
+    </div> <!-- global-footer end -->
+    <!-- Global footer snippet end -->
+
+</body>
+</html>
+
+

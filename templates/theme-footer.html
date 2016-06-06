@@ -1,0 +1,56 @@
+## mako
+<%! 
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+  from edxmako.shortcuts import marketing_link
+%>
+<div class="wrapper-footer">
+  <footer>
+    <div class="colophon">
+<!--
+      <a href="http://openedx.org" style="padding-bottom:10px" target="_blank">
+        <span class="sr">${_('Powered by {platform_name}').format(platform_name='Open edX')}</span>
+        <img src="https://files.edx.org/openedx-logos/edx-openedx-logo-tag-light.png" height="20" alt="${_('Powered by {platform_name}').format(platform_name='Open edX')}"/>
+      </a>
+-->
+      <!---->
+    </div>
+    <div class="references">
+      <!---->
+    </div>
+  </footer>
+</div>
+
+<div id="sen-footer">
+  <div class="sen-container">
+    <div class="sen-row">
+      <div id="sen-footer-logo" class="span2">
+        <a href="http://www.senecacollege.ca/" target="_blank">
+          <img src="/static/themes/seneca/images/logo_small_white_college.png" alt="Seneca College of Applied Arts and Technology" width="105" height="60"/>
+        </a>
+      </div>
+      <div id="sen-footer-text" class="span10">
+        <ul>
+          <li><a href="http://www.senecacollege.ca/" target="_blank">Seneca Home Page</a></li>
+          <li><a href="http://www.senecacollege.ca/campuses/" target="_blank">Maps &amp; Directions</a></li>
+          <li><a href="http://www.senecacollege.ca/search" target="_blank">Search Seneca</a></li>
+          <li><a href="http://www.senecacollege.ca/privacy/" target="_blank">Terms of Use</a></li>
+          <li><a href="http://www.senecac.on.ca/students/ombudsperson/" target="_blank">Copyright Complaints</a></li>
+        </ul>
+        <div class="clear"></div>
+        <p class="copyright vcard">&copy; <span class="fn org">Seneca College of Applied Arts and Technology</span>, <span class="adr"> <span class="locality">Seneca</span>, <span class="region">Canada</span></span></p>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+  </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins)
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+
+
+
+<script>
+    $(document).ready(function(){
+        $('li > a:contains("Discussion")').remove();
+    });
+</script>

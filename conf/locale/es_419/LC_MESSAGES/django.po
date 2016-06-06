@@ -1,0 +1,202 @@
+# Stanford OpenEdX translation file
+# Copyright (C) 2014 Stanford University
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# Giulio Gratta, 2014
+# Kevin Luo, 2014
+# Nathaniel Edwards, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: stanford-openedx\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-15 21:26+0000\n"
+"PO-Revision-Date: 2014-07-23 19:43+0000\n"
+"Last-Translator: kluo <kevluo@edx.org>\n"
+"Language-Team: Spanish (Latin America) (http://www.transifex.com/projects/p/stanford-openedx/language/es_419/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_419\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/registration/password_reset_confirm.html:6
+#, python-format
+msgid ""
+"\n"
+"      Reset Your %(PLATFORM_NAME)s Password\n"
+"    "
+msgstr "\nRestablece Tu Contraseña de %(PLATFORM_NAME)s"
+
+#: templates/registration/password_reset_confirm.html:49
+#, python-format
+msgid ""
+"\n"
+"            Reset Your %(PLATFORM_NAME)s Password\n"
+"          "
+msgstr "\nRestablece Tu Contraseña de %(PLATFORM_NAME)s"
+
+#: templates/registration/password_reset_confirm.html:66
+#, python-format
+msgid ""
+"\n"
+"              We're sorry, %(PLATFORM_NAME)s enrollment is not available in your region\n"
+"            "
+msgstr "\nLo sentimos, las inscripciones a %(PLATFORM_NAME)s no están disponibles en su región"
+
+#: templates/registration/password_reset_confirm.html:83
+#, python-format
+msgid ""
+"\n"
+"              Someone has been made aware of this issue. Please try again shortly. Please %(start_link)scontact us%(end_link)s about any concerns you have.\n"
+"            "
+msgstr "\nAlguien ya ha sido alertado de esta situación. Por favor reintente en algunos minutos. Por favor %(start_link)scontáctenos%(end_link)s para transmitirnos cualquier inquietud."
+
+#: templates/registration/password_reset_confirm.html:119
+#, python-format
+msgid ""
+"\n"
+"          The password reset link was invalid, possibly because the link has already been used.  Please return to the %(start_link)slogin page%(end_link)s and start the password reset process again.\n"
+"        "
+msgstr "\nEl vínculo de restablecimiento de contraseña es inválido, posiblemente este vínculo ya fue utilizado. Por favor regrese a la página de %(start_link)sinicio de sesión%(end_link)s y comience de nuevo el proceso de restablecer contraseña."
+
+#: templates/registration/password_reset_confirm.html:135
+#, python-format
+msgid ""
+"\n"
+"            View our %(start_link)shelp section for contact information and answers to commonly asked questions%(end_link)s\n"
+"          "
+msgstr "\nVisite nuestra %(start_link)ssección de ayuda para ver la información de contacto y las respuestas a las preguntas mas comunes%(end_link)s"
+
+#: templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your"
+" user account at %(platform_name)s."
+msgstr "Usted ha recibido este correo electrónico porque solicitó el restablecimiento de su contraseña de usuario para %(platform_name)s."
+
+#: templates/registration/password_reset_email.html:13
+#, python-format
+msgid "The %(platform_name)s Team"
+msgstr "El equipo de %(platform_name)s"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid ""
+"Your answers have been saved but not graded. Click 'Submit' to grade them."
+msgstr "Sus respuestas han sido guardadas pero no calificadas. Haga clic en 'Enviar' para calificarlas."
+
+msgid ""
+"By exploring the course, you are agreeing to our Terms of Service. Please "
+"read them carefully."
+msgstr "Al explorar el curso, usted acepta nuestros Términos de Servicio. Favor de leerlos con cuidado."
+
+msgid ""
+"By {end_time}, you must manually click the 'Final Submit' button below!"
+msgstr "Para {end_time}, ¡debe hacer clic manualmente en el botón \\\"Enviar su respuesta final\\\" abajo!"
+
+msgid ""
+"Have <strong>general questions about {platform_name}</strong>? You can find "
+"lots of helpful information in the {platform_name} {link_start}Help "
+"Center{link_end}."
+msgstr "¿Tiene <strong>preguntas generales sobre la plataforma {platform_name}</strong>? Puede encontrar mucha información valiosa en la sección de {link_start}Centro de Ayuda{link_end} de {platform_name}."
+
+msgid ""
+"I agree to the {link_start1}Terms of Service{link_end} and "
+"{link_start2}Privacy Policy{link_end}"
+msgstr "Acepto los {link_start1}Términos del Servicio{link_end} y la {link_start2}Política de Privacidad{link_end}"
+
+msgid ""
+"Needed for any certificates you may earn <strong>(cannot be changed "
+"later)</strong>"
+msgstr "Se requiere para cualquier certificado que pueda obtener <strong>(No podrá ser cambiada después)</strong>"
+
+msgid ""
+"Non-registered mode.  {tag_start}Register{tag_end} to save your course "
+"progress."
+msgstr "Modo no registrado. {tag_start}Regístrese{tag_end} para guardar su progreso en el curso."
+
+msgid ""
+"Please enter your email address below, and we will email instructions for "
+"setting a new password."
+msgstr "Por favor ingrese su dirección de correo electrónico y le enviaremos las instrucciones para restablecer su contraseña."
+
+msgid ""
+"Thank you for your inquiry or feedback. We typically respond to a request "
+"within three business days. In the meantime, please review our "
+"{link_start}Help Center articles{link_end}, where answers to many common "
+"questions have been posted."
+msgstr "Gracias por sus preguntas y aportes. Generalmente respondemos cada solicitud en tres días hábiles. Entre tanto, por favor revise nuestra sección de {link_start}artículos del Centro de Ayuda{link_end}, donde se ha publicado respuestas a muchas preguntas comunes."
+
+msgid ""
+"The system is looking for your account. You should receive an email with "
+"password reset instructions shortly. If you don't see it within a few "
+"minutes (and it's not in your email's Spam or Trash), your account may be "
+"under a different email address. Try {start_link}logging in{end_link} again "
+"with some other email addresses you maintain."
+msgstr "El sistema está buscando su cuenta. Debe usted recibir un email con instrucciones para restablecer su contraseña pronto. Si no lo ve dentro de unos pocos minutos (y no está en su carpeta de correo no deseado), es posible que su cuenta es asociada con otra dirección de correo electrónico. Trate de {start_link}singresar{end_link} de nuevo con algunas otras direcciones que usted mantenga."
+
+msgid "Assessment Panel"
+msgstr "Panel de Evaluación"
+
+msgid "At {start_time}, you started this exam."
+msgstr "Usted inició el examen a {start_time}."
+
+msgid "By exploring the course, you are agreeing to our"
+msgstr "Al explorar el curso, usted acepta nuestros"
+
+msgid "Create your account"
+msgstr "Crear su cuenta"
+
+msgid "Create your {platform_name} learning and research account!"
+msgstr "Crear su cuenta de aprendizaje y investigaciones con {platform_name}!"
+
+msgid "Explore Course"
+msgstr "Explorar el curso"
+
+msgid "Final Submit"
+msgstr "Enviar su respuesta final"
+
+msgid "HOW TO USE DISCUSSIONS"
+msgstr "COMO USAR LAS DISCUSIONES"
+
+msgid "Needed for any Statements of Accomplishment you may earn"
+msgstr "Se requiere para cualquier declaración de logro que pueda obtener"
+
+msgid "Password reset initiated"
+msgstr "Restablecimiento de contraseña iniciado"
+
+msgid "Please read them carefully."
+msgstr "Por favor leerlos con cuidado."
+
+msgid "Public courses from {university_name}!"
+msgstr "Cursos públicos de {university_name}!"
+
+msgid "Self Assessment"
+msgstr "Autoevaluación"
+
+msgid "This should be the email address you used to register with {platform}"
+msgstr "Esta debe ser la dirección de correo electrónico que uso para registrarse con {platform}"
+
+msgid "Welcome to the {platform_name} Learning and Research Community"
+msgstr "Bienvenido a la Comunidad de Aprendizaje e Investigación en Línea de {platform_name}"
+
+msgid "Welcome! Register below to create your %(platform_name)s account"
+msgstr "Bienvenido! Regístrese a continuación para crear su cuenta en %(platform_name)s"
+
+#: maintenance/index.html:5 maintenance/index.html:79
+msgid "Down for Maintenance"
+msgstr "En Mantenimiento"
+
+#: maintenance/index.html:81
+msgid ""
+"We are currently performing system maintenance, please try again in a little"
+" while."
+msgstr "Actualmente estamos realizando tareas de mantenimiento del sistema. Por favor, inténtelo de nuevo después de un poco."
+
+#: templates/theme-footer.html:23 templates/theme-footer.html:24
+msgid "Powered by {platform_name}"
+msgstr "Impulsado por {platform_name}"
+
+#: templates/theme-header.html:22
+msgid "{platform_name}, Courses List"
+msgstr "{platform_name}, Lista de Cursos"
